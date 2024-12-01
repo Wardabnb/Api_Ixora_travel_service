@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { Admin } from "../models/admin.js";
 
 export async function login(req, res) {
